@@ -1,8 +1,48 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{47ADDD62-D36F-4225-B953-5E151196A16F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{5528900D-4430-4BF9-9D26-380832734677}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{E896D0EF-FD6F-4096-870E-D3820D45609C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{E851F3FB-DA7C-4001-B0EC-502CD55189DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pharmacy.Domain", "Pharmacy.Domain\Pharmacy.Domain.csproj", "{71039F1C-777C-4EFE-9BF3-79784709B972}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pharmacy.Persistence", "Pharmacy.Persistence\Pharmacy.Persistence.csproj", "{B4DD2296-ADC9-4DA0-AA4E-8BFC8E40E7A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pharmacy.Application", "Pharmacy.Application\Pharmacy.Application.csproj", "{4E58CA37-691D-46B5-910D-D6410572AD5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pharmacy.Presentation", "Pharmacy.Presentation\Pharmacy.Presentation.csproj", "{769DC556-4A48-44D7-A570-AD0CFC499882}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71039F1C-777C-4EFE-9BF3-79784709B972}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71039F1C-777C-4EFE-9BF3-79784709B972}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71039F1C-777C-4EFE-9BF3-79784709B972}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71039F1C-777C-4EFE-9BF3-79784709B972}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4DD2296-ADC9-4DA0-AA4E-8BFC8E40E7A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4DD2296-ADC9-4DA0-AA4E-8BFC8E40E7A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4DD2296-ADC9-4DA0-AA4E-8BFC8E40E7A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4DD2296-ADC9-4DA0-AA4E-8BFC8E40E7A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E58CA37-691D-46B5-910D-D6410572AD5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E58CA37-691D-46B5-910D-D6410572AD5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E58CA37-691D-46B5-910D-D6410572AD5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E58CA37-691D-46B5-910D-D6410572AD5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{769DC556-4A48-44D7-A570-AD0CFC499882}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{769DC556-4A48-44D7-A570-AD0CFC499882}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{769DC556-4A48-44D7-A570-AD0CFC499882}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{769DC556-4A48-44D7-A570-AD0CFC499882}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{71039F1C-777C-4EFE-9BF3-79784709B972} = {E851F3FB-DA7C-4001-B0EC-502CD55189DB}
+		{B4DD2296-ADC9-4DA0-AA4E-8BFC8E40E7A6} = {5528900D-4430-4BF9-9D26-380832734677}
+		{4E58CA37-691D-46B5-910D-D6410572AD5C} = {47ADDD62-D36F-4225-B953-5E151196A16F}
+		{769DC556-4A48-44D7-A570-AD0CFC499882} = {E896D0EF-FD6F-4096-870E-D3820D45609C}
 	EndGlobalSection
 EndGlobal
